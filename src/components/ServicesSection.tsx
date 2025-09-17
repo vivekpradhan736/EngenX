@@ -137,7 +137,7 @@ const ServicesSection = () => {
         </div>
 
         {/* How it works quick steps */}
-        <div className="text-center space-y-4 mb-16">
+        <div id="how-it-works" className="text-center space-y-4 mb-16">
           <h2 className="text-3xl font-bold text-foreground lg:text-4xl">
             Shorten And Aimplify Your Car History Report
           </h2>
