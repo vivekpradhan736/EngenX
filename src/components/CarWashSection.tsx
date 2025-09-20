@@ -107,6 +107,9 @@ const CarWashSection = () => {
                 <div className="space-y-1">
                   <div className="text-4xl font-bold text-primary">{pkg.price}</div>
                   <div className="text-sm text-muted-foreground">{pkg.duration}</div>
+                  <Button variant={pkg.variant} className="w-full">
+                  {pkg.popular ? 'Choose Standard' : `Choose ${pkg.name.split(' ')[0]}`}
+                </Button>
                 </div>
               </CardHeader>
               
@@ -119,10 +122,6 @@ const CarWashSection = () => {
                     </div>
                   ))}
                 </div>
-                
-                <Button variant={pkg.variant} className="w-full">
-                  {pkg.popular ? 'Choose Standard' : `Choose ${pkg.name.split(' ')[0]}`}
-                </Button>
               </CardContent>
             </Card>
           ))}

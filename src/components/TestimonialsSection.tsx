@@ -9,7 +9,7 @@ const TestimonialsSection = () => {
       role: "Business Owner",
       avatar: "/placeholder.svg",
       rating: 5,
-      text: "CarHealth Pro saved me hundreds of dollars by catching a small issue before it became major. The health check was quick and the report was incredibly detailed."
+      text: "EngenX saved me hundreds of dollars by catching a small issue before it became major. The health check was quick and the report was incredibly detailed."
     },
     {
       name: "Mike Chen",
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
             What Our Customers Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of satisfied customers who trust CarHealth Pro 
+            Join thousands of satisfied customers who trust EngenX 
             for their vehicle maintenance needs
           </p>
         </div>

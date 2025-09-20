@@ -8,7 +8,9 @@ import {
   FileText, 
   Settings, 
   Shield, 
-  Wrench 
+  Wrench,
+  Fuel,
+  BatteryCharging
 } from "lucide-react";
 import HowItWork from "@/assets/HowItWork.svg";
 
@@ -33,6 +35,16 @@ const ServicesSection = () => {
       icon: Shield,
       title: "Safety Inspection",
       description: "Brake, tire, and safety system analysis"
+    },
+    {
+      icon: Fuel,
+      title: "Fuel Efficiency",
+      description: "Optimize fuel usage and mileage"
+    },
+    {
+      icon: BatteryCharging,
+      title: "Battery Efficiency",
+      description: "Ensure optimal battery performance"
     }
   ];
 
